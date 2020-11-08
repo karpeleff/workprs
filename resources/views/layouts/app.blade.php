@@ -74,6 +74,36 @@
 
         <main class="py-4">
             @yield('content')
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Main menu</div>
+
+                    <div class="card-body">
+                        <a href=""><p>Engines</p></a>
+                        <a href=""><p>Engines</p></a>
+                        <a href=""><p>Engines</p></a>
+                        <a href="/upload_form"><p>DocsDownload</p></a>
+
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">Remainds</div>
+
+                    <div class="card-body">
+                        <ul>
+                            <li>tcvb</li>
+
+                            <li>cv cv</li>
+                            <li>xcv xc</li>
+                            <li>xcv xc</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </div>
         </main>
     </div>
 </body>
