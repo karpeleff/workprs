@@ -21,3 +21,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/upload_form','UploadController@getform');
 Route::post('/upload_file','UploadController@upload')->name('upload_file');
+
+
+Route::get('/docs_form','DocsController@get_form');
