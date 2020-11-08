@@ -18,6 +18,30 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">Main menu</div>
+
+                <div class="card-body">
+
+xcgnxcgn
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-header">Remainds</div>
+
+                <div class="card-body">
+                    <ul>
+                        <li>cvb</li>
+                        <li>cv cv</li>
+                        <li>xcv xc</li>
+                        <li>xcv xc</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 @endsection
