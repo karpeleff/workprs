@@ -25,4 +25,6 @@ Route::post('/upload_file','UploadController@upload')->name('upload_file');
 
 Route::get('/docs_form','DocsController@get_form');
 
+Route::post('/doc_create','DocsController@doc_create');
+
 Route::get('/engine_form','DocsController@engine_form');

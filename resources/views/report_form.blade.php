@@ -8,22 +8,26 @@
                 <div class="card-header">Report create</div>
 
                 <div class="card-body">
+           <form method="post" action="/doc_create" >
 
-                    <select class="browser-default custom-select">
-                        <option selected>Выбор отчета</option>
-                        <option value="1">План работ</option>
-                        <option value="2">Топливо</option>
-                        <option value="3">СИЗ</option>
-                        <option value="4">One</option>
-                        <option value="5">Two</option>
-                        <option value="6">Three</option>
-                    </select>
-                    <br><br>
-                    <label>Период</label>
-                    <br>
-                    <input type="text">
-                    <br><br>
-                    <input  type="submit"  value="сформировать" >
+               @csrf
+               <select class="browser-default custom-select" name="doc" >
+                   <option selected>Выбор отчета</option>
+                   <option value="work_plan">План работ</option>
+                   <option value="fuel">Топливо</option>
+                   <option value="siz">СИЗ</option>
+                   <option value="4">One</option>
+                   <option value="5">Two</option>
+                   <option value="6">Three</option>
+               </select>
+               <br><br>
+               <label>Период</label>
+               <br>
+               <input type="text">
+               <br><br>
+               <input  type="submit"  value="сформировать" >
+           </form>
+
                     <br><br>
                 </div>
             </div>
