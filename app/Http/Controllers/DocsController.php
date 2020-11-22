@@ -10,4 +10,9 @@ class DocsController extends Controller
     {
         return view('report_form');
     }
+
+    public function engine_form()
+    {
+        return view('engine_form');
+    }
 }
